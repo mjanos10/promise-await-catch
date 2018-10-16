@@ -1,0 +1,26 @@
+{
+  "name": "promise-await-catch",
+  "version": "1.0.0",
+  "description": "A simple app showcasing a small, but quite important difference between a function that returns a Promise and an async function",
+  "main": "app.js",
+  "author": "janos.mayer <hq@mywebstuff.org>",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mywebstuff/promise-await-catch.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.14.3"
+  }
+}
